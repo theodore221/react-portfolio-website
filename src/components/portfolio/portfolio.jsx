@@ -1,18 +1,20 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/proj1.png";
+import IMG2 from "../../assets/proj2.jpg";
+import IMG3 from "../../assets/proj3.jpg";
 
 const data = [
   {
     id: 1,
-    image: IMG1,
+    image: IMG2,
     title: "Forkify",
     github: "https://github.com/theodore221/Forkify",
     demo: "demo1",
   },
   {
     id: 2,
-    image: IMG1,
+    image: IMG3,
     title: "Mapty",
     github: "https://github.com/theodore221/Mapty",
     demo: "demo1",
