@@ -1,8 +1,8 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/login.PNG";
-import IMG2 from "../../assets/proj2.jpg";
-import IMG3 from "../../assets/proj3.jpg";
+import IMG2 from "../../assets/forkify.png";
+import IMG3 from "../../assets/tictactoe.png";
 
 const data = [
   {
@@ -21,26 +21,26 @@ const data = [
     description:
       "Forkify is a recipe management application that allows users to search, modify and favourite recipes. Recipe data is polled from a public API and users can also uploade recipe data to be stored. Stack: Javascript, HTML, CSS",
     github: "https://github.com/theodore221/Forkify",
-    demo: "demo1",
+    demo: "https://curious-cascaron-7a8ab7.netlify.app/",
   },
-  {
-    id: 3,
-    image: IMG3,
-    title: "Mapty",
-    description:
-      "A simple clean login form UI for web applications. Stack: React, CSS",
-    github: "https://github.com/theodore221/Mapty",
-    demo: "demo1",
-  },
-  {
-    id: 3,
-    image: IMG1,
-    title: "Tic Tac Toe",
-    description:
-      "A simple clean login form UI for web applications. Stack: React, CSS",
-    github: "https://github.com/theodore221/tictactoe",
-    demo: "demo1",
-  },
+  // {
+  //   id: 3,
+  //   image: IMG3,
+  //   title: "Mapty",
+  //   description:
+  //     "A simple clean login form UI for web applications. Stack: React, CSS",
+  //   github: "https://github.com/theodore221/Mapty",
+  //   demo: "demo1",
+  // },
+  // {
+  //   id: 3,
+  //   image: IMG3,
+  //   title: "Tic Tac Toe",
+  //   description:
+  //     "TIC TAC TOE game built to serve as an introduction to understanding React Concepts. Stack: React",
+  //   github: "https://github.com/theodore221/tictactoe",
+  //   demo: "https://theodore221.github.io/tictactoe/",
+  // },
 ];
 
 const Portfolio = () => {
