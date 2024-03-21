@@ -3,6 +3,7 @@ import "./nav.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BsBookHalf } from "react-icons/bs";
+import { TiSpanner } from "react-icons/ti";
 import { AiFillPhone } from "react-icons/ai";
 import { useState } from "react";
 
@@ -25,19 +26,27 @@ const Nav = () => {
         <AiOutlineUser />
       </a>
       <a
+        href="#portfolio"
+        onClick={() => setActiveNav("#portfolio")}
+        className={activeNav === "#portfolio" ? "active" : ""}
+      >
+        <TiSpanner />
+      </a>
+      <a
         href="#experience"
         onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
       >
         <BsBookHalf />
       </a>
-      <a
+
+      {/* <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}
         className={activeNav === "#contact" ? "active" : ""}
       >
         <AiFillPhone />
-      </a>
+      </a> */}
     </nav>
   );
 };
